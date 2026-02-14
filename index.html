@@ -246,6 +246,12 @@ function showFinalLetter(){
     </div>
   </div>`;
 }
+  function startMusic() {
+  var music = document.getElementById("bgMusic");
+  if (music.paused) {
+    music.play();
+  }
+  }
 </script>
 <audio id="bgMusic" src="raanjhana.mp3" loop></audio>
 </body>
